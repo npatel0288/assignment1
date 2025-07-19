@@ -1,2 +1,20 @@
-/* Name: Nidhi Ben Patel
-Student Number:9050288 /*
+/* N: Nidhi ben Patel
+
+
+
+/* adding root element for font in short hand where i included 6 properties of font property */
+
+:root {
+    font: oblique normal 20px/1 100 tahoma;
+    /* this is font shorthand with 6 properties that is font-style, font-variant, font-weight, font-size, in-lline and font-family*/
+    background-color: lightcyan;
+    /* changed the background color lightcyan */
+}
+
+body {
+    max-width: 1000px;
+    margin: 0.5;
+    padding: 3rem;
+    border: 0.3rem;
+    background-color: aliceblue;
+}
