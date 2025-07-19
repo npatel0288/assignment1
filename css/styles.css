@@ -49,3 +49,8 @@ aside {
     /* keeping the width below 30% for spacing purpose*/
     padding: 1.5rem;
 }
+
+footer {
+    clear: both;
+    /* using clear property to clear the footer*/
+}
