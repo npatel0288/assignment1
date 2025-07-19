@@ -3,14 +3,15 @@
 */
 
 /* adding root element for font in short hand where i included 6 properties of font property */
-:root {
-    font: oblique normal 20px/1 100 tahoma;
-    /* this is font shorthand with 6 properties that is font-style,
+html {
+    :root {
+        font: oblique normal 20px/1 100 tahoma;
+        /* this is font shorthand with 6 properties that is font-style,
      font-variant, font-weight, font-size, in-lline and font-family*/
-    background-color: lightcyan;
-    /* changed the background color lightcyan */
+        background-color: lightcyan;
+        /* changed the background color lightcyan */
+    }
 }
-
 
 
 
@@ -24,14 +25,27 @@ body {
     /* used rem units for padding*/
     border: 0.1rem;
     /*Used rem unit for border*/
-    background-color: aliceblue;
+    background-color: blue;
 }
 
 
 
 
-/*page layout using float*/
-main,
+
+main {
+    float: left;
+    /* kept the float left to position and format the content in the container*/
+    width: 65%;
+    /* kept the width below 70% to allow the box model padding*/
+    padding: 1.5rem;
+    /* kept the space 1.5rem for the content */
+}
+
+
+
 aside {
-    padding: 3rem;
+    float: left;
+    width: 25%;
+    /* keeping the width below 30% for spacing purpose*/
+    padding: 1.5rem;
 }
