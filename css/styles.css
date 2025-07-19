@@ -30,4 +30,8 @@ body {
 
 
 
-/**/
+/*page layout using float*/
+main,
+aside {
+    padding: 3rem;
+}
