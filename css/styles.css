@@ -21,9 +21,9 @@ body {
     /* max witdh using absolute units with px */
     margin: 0 auto;
     /* center content with margin 0 for setting up the margin for all the 4sides*/
-    padding: 3rem;
+    padding: 2rem;
     /* used rem units for padding*/
-    border: 0.1rem;
+    border: 0.2rem;
     /*Used rem unit for border*/
     background-color: lavender;
 }
@@ -37,7 +37,7 @@ main {
     /* kept the float left to position and format the content in the container*/
     width: 68%;
     /* kept the width below 70% to allow the box model padding*/
-    padding: 1.5rem;
+    padding: 2rem;
     /* kept the space 1.5rem for the content */
 }
 
@@ -45,9 +45,9 @@ main {
 
 aside {
     float: left;
-    width: 25%;
+    width: 28%;
     /* keeping the width below 30% for spacing purpose*/
-    padding: 1.5rem;
+    padding: 2rem;
 }
 
 footer {
@@ -59,17 +59,35 @@ footer {
 
 
 header {
-    font-size: larger;
+    font-size: xx-large;
     /* increased the size of the font size larger*/
-    background: -o-linear-gradient();
+    background: linear-gradient(to right, #ffffff, #2105bf);
     text-align: center;
+    padding: 1.5rem;
 
+}
+
+header h2 {
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #dc143c;
 }
 
 
 footer {
     font-size: small;
     /* decresed the size of the footer font by small*/
-    background: -o-linear-gradient(left to right, yellow to red);
+    background: linear-gradient(to right, #fffffe, #031e94);
     text-align: center;
+}
+
+
+
+blockquote {
+    font-style: italic;
+    background-color: #dcdc9a;
+    padding: 1.3rem;
+    border-left: 0.4rem #ffffff;
 }
