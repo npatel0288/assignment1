@@ -114,3 +114,9 @@ figure img {
     margin: 0 auto;
     width: 80%;
 }
+
+figcaption {
+    font-size: 0.8rem;
+    font-variant: small-caps;
+    margin: 0 auto;
+}
