@@ -4,14 +4,9 @@
 
 /* adding root element for font in short hand where i included 6 properties of font property */
 :root {
-    font: oblique normal 20px/1 100 tahoma;
-    /* this is font shorthand with 6 properties that is font-style,
-     font-variant, font-weight, font-size, in-lline and font-family*/
-    background-color: lightcyan;
-    /* changed the background color lightcyan */
+    font: oblique normal 20px 100 tahoma;
+
 }
-
-
 
 /* added some elements in the body max-width, margin, padding, border and backgroung-color*/
 body {
@@ -155,7 +150,7 @@ table {
 
 th {
     text-align: left;
-    font-weight: 200;
+    font-weight: 600;
     font-variant: small-caps;
     color: maroon;
     background-color: #a88ab6;
@@ -180,4 +175,23 @@ td {
     border: 0.2rem solid #a9a9a9;
     border-radius: 0.5rem;
     width: 12rem
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: medium;
+    }
+
+    main {
+        float: none;
+    }
+
+    aside {
+        float: none;
+    }
+}
+
+iframe {
+    width: 80%;
+    height: auto;
 }
