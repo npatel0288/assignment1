@@ -87,7 +87,11 @@ footer {
 
 blockquote {
     font-style: italic;
-    background-color: #dcdc9a;
-    padding: 1.3rem;
+    background-color: #e5d9f6;
     border-left: 0.4rem #ffffff;
+    padding: 1.3rem;
+    width: 85%;
+    margin: 2rem auto;
+    text-align: center;
+    box-shadow: 0.4rem 0.6rem #a9a9a9;
 }
