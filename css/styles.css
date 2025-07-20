@@ -95,3 +95,12 @@ blockquote {
     text-align: center;
     box-shadow: 0.4rem 0.6rem #a9a9a9;
 }
+
+
+
+figure {
+    border: 0.3rem solid #0d0701;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: lab(61.55% 19.55 -18.77);
+}
