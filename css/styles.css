@@ -54,3 +54,22 @@ footer {
     clear: both;
     /* using clear property to clear the footer*/
 }
+
+
+
+
+header {
+    font-size: larger;
+    /* increased the size of the font size larger*/
+    background: -o-linear-gradient();
+    text-align: center;
+
+}
+
+
+footer {
+    font-size: small;
+    /* decresed the size of the footer font by small*/
+    background: -o-linear-gradient(left to right, yellow to red);
+    text-align: center;
+}
