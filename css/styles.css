@@ -17,15 +17,15 @@ html {
 
 /* added some elements in the body max-width, margin, padding, border and backgroung-color*/
 body {
-    max-width: 1000px;
+    max-width: 1200px;
     /* max witdh using absolute units with px */
-    margin: 0;
+    margin: 0 auto;
     /* center content with margin 0 for setting up the margin for all the 4sides*/
     padding: 3rem;
     /* used rem units for padding*/
     border: 0.1rem;
     /*Used rem unit for border*/
-    background-color: blue;
+    background-color: lavender;
 }
 
 
@@ -35,7 +35,7 @@ body {
 main {
     float: left;
     /* kept the float left to position and format the content in the container*/
-    width: 65%;
+    width: 68%;
     /* kept the width below 70% to allow the box model padding*/
     padding: 1.5rem;
     /* kept the space 1.5rem for the content */
