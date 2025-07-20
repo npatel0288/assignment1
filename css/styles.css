@@ -32,15 +32,17 @@ main {
     /* kept the width below 70% to allow the box model padding*/
     padding: 2rem;
     /* kept the space 1.5rem for the content */
+    box-sizing: border-box;
 }
 
 
 
 aside {
-    float: left;
+    float: right;
     width: 28%;
     /* keeping the width below 30% for spacing purpose*/
     padding: 2rem;
+    box-sizing: border-box;
 }
 
 footer {
@@ -86,7 +88,7 @@ blockquote {
     width: 85%;
     margin: 2rem auto;
     text-align: center;
-    box-shadow: 0.4rem 0.6rem #a9a9a9;
+    box-shadow: 0.5rem 0.6rem #a9a9a9;
 }
 
 
@@ -102,10 +104,13 @@ figure {
 
 figure img {
     display: block;
-    border: #a9a9a9;
+    border: 0.2rem solid #06000b;
     border-radius: 1rem;
-    margin: 0 auto;
-    width: 80%;
+    margin: 1 auto;
+    width: 100%;
+    height: auto;
+    box-shadow: 0.5rem 0.7rem #808080;
+
 }
 
 figcaption {
@@ -123,22 +128,17 @@ iframe {
 }
 
 section.quote {
-    border: 0.2em solid #e5d9f6;
+    border: 0.3rem solid #e5d9f6;
     box-shadow: 0 0.5rem 2rem lightcoral;
     width: 80%;
     font-family: 'Courier New', Courier, monospace;
-    font-style: oblique;
+    font-style: italic;
     color: #ac9b80;
-    padding: 1rem;
-    text-align: center;
+    padding: 2rem;
     margin: 2rem auto;
 }
 
-
-
-
-
-
+link
 /* Table */
 
 table {
