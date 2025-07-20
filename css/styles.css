@@ -104,3 +104,13 @@ figure {
     padding: 1rem;
     background-color: lab(61.55% 19.55 -18.77);
 }
+
+
+
+figure img {
+    display: block;
+    border: #a9a9a9;
+    border-radius: 1rem;
+    margin: 0 auto;
+    width: 80%;
+}
