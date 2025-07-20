@@ -138,3 +138,31 @@ section.quote {
     text-align: center;
     margin: 2rem auto;
 }
+
+
+
+
+
+
+/* Table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+
+}
+
+th {
+    text-align: left;
+    font-weight: 200;
+    font-variant: small-caps;
+    color: maroon;
+    background-color: #a88ab6;
+}
+
+th,
+td {
+    padding: 1rem;
+    border: 0.2rem solid;
+}
