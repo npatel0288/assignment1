@@ -3,14 +3,12 @@
 */
 
 /* adding root element for font in short hand where i included 6 properties of font property */
-html {
-    :root {
-        font: oblique normal 20px/1 100 tahoma;
-        /* this is font shorthand with 6 properties that is font-style,
+:root {
+    font: oblique normal 20px/1 100 tahoma;
+    /* this is font shorthand with 6 properties that is font-style,
      font-variant, font-weight, font-size, in-lline and font-family*/
-        background-color: lightcyan;
-        /* changed the background color lightcyan */
-    }
+    background-color: lightcyan;
+    /* changed the background color lightcyan */
 }
 
 
@@ -23,7 +21,7 @@ body {
     /* center content with margin 0 for setting up the margin for all the 4sides*/
     padding: 2rem;
     /* used rem units for padding*/
-    border: 0.2rem;
+    border: 0.2rem solid;
     /*Used rem unit for border*/
     background-color: lavender;
 }
@@ -102,7 +100,7 @@ figure {
     border: 0.3rem solid #0d0701;
     border-radius: 0.5rem;
     padding: 1rem;
-    background-color: lab(61.55% 19.55 -18.77);
+    background-color: #a88ab6;
 }
 
 
@@ -119,4 +117,12 @@ figcaption {
     font-size: 0.8rem;
     font-variant: small-caps;
     margin: 0 auto;
+}
+
+
+iframe {
+    border: 0.1rem;
+    display: block;
+    margin: 1rem auto;
+    width: 50%;
 }
